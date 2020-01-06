@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="James Lemieux">
+    <meta name="description" content="My coop report website">
+    <title>Calendar Viewer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/james.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.0.js" integrity="sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<header>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="home-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+            <!--Some Video that Will go here-->
+        <video autoplay muted loop>    
+            <source src="./assets/blurredCarDark.mp4" type="video/mp4">
+        </video>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="upper-container-contents">
+                        <img id="main-header-img" class="rounded-circle" src="./assets/james.jpg" alt="some cube"/>
+                        <h1 class="display-4"> James Lemieux </h1>
+                    </div>
+                    <div class="lower-container-contents">
+                        <p class="lead" id="main-subhead">Dive into the Matrix</p>
+                        <a href="assets/LemieuxJamesResume.pdf" download><button type="button" class="btn btn-light">My Resume</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--IDK, I am probably going to delete this part of the site-->
+    <div class="container-fluid" id="sub-heading">
+        <center><p id="quote">Hello! My name is James, I am a third year computer science student at the University of Guelph with an expected graduation date of April 2022. Other than debugging and copying code off the internet. I am also a fan of music production and sound design.</p></center>
+    </div>
+    <hr class="my-6"/>
+</header>
+<body>
+    <!--This is the body-->
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="intentions-container">
+                        <!--Content Here-->
+                        <div class="text-content">
+                            <h3>Abstract</h3>
+                            <p>My intention for this site is to showcase the experience I have gained and the many useful things I have learned about the field of software and myself as a whole. I hope you can bear with me through a journey of poor grammar and possible spelling mistakes (I prefer writing Typescript over English). </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 "/>
+            <div class="row">
+                <div class="col">
+                    <div class="experience-container">
+                        <h2 class="display-4">My Experience</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="caseware-content">
+                        <!--Content Here-->
+                        <h3 id="content-title">Caseware International Software Development</h3>
+                        <div class="text-content">
+                            <img src="assets/caseware_logo.jpg" alt="caseware-logo" class="rounded float-right" id="content-logo"/>
+                            <i><h5>About the company</h5></i>
+                            <p>Caseware International Inc. is a leading software company of delivering internal audit products to various accountant firms across the globe. The head office in Toronto was responsible for all the various products that the company offered. Which includes engagement automation, data analysis and internal audit workflows.</p>
+                        </div>
+                        <div class="text-content">
+                            <i><h5>Job Description</h5></i>
+                            <p>When I first arrived to Caseware the first thing that happened to me was that I was informed that my team was actually no longer a team. You could imagine, my first thoughts were that I was going to be asked to pack my bag and go home. Yet to my surprise they had a team on Caseware Cloud that would be a perfect fit for me. Caseware cloud being a web application, I was using front end frameworks such as Angular and Typescript to develop dynamic component libraries that would be used all around the app. I was also responsible for writing component unit tests and took part in design meetings to plan layout and structure of new features that we were working on. In Caseware Cloud there are separate squads that are responsible for various areas on the web application. I was placed on the Tactical Squad whose main focus was on miscellaneous bugs and features all over the application. However, when I joined the squad, they were in progress working on a newer version of the already established query feature called eQuery. Which allows for firms and clients to communicate various forms, files and agreements all within our application. Eliminating the risk of data being lost in emails or in third party software. My team first introduced me to the environment by getting me started with some issues that were very easy and intuitive. I quickly grew more comfortable and took on harder bugs and full features to myself. Nearing the end of my internship I was implementing a library that would be used to track analytics and user stories within Caseware cloud. I then began to collaborate with server squad and dev ops to complete stories that could affect other squads. The increased responsibility that they gave me was very rewarding.</p>
+                        </div>
+                        <div class="text-content">
+                            <i><h5>Work Term Goals (May - August)</h5></i>
+                            <p>My first and I think my most important goal for this term was not to be afraid to ask for help when I need it. If you know me personally then you know that sometimes I can be stubborn when I am working to figure something out. I guess it is a curse and a blessing to do everything in my power to figuring out a problem before asking for help. But I quickly realized that this is not always the best way to work. Especially when working with such a large code base with little to know knowledge on how the product works. When asking my more experienced team mates for help I was able to access knowledge much easier and quicker. Resulting in me learning more effectively and being able to push out software on time and within our weekly sprints. Lesson learned, I can’t do everything by myself (unfortunately).</p>
+                            <hr class="my-6"/>
+                            <p>My second goal was actually to be more involved with company culture and socials. During my first months at Caseware I never really participated in the monthly company socials. These socials allowed for all employees to get together and have a good time after working hours. Food, drinks and board games were provided for free at the expense of the company. However, due to my living circumstances (living in Kitchener/Waterloo). I decided to take an earlier train back home to prevent me from getting home at 9pm and then waking up at 6 am the next day to repeat a dreadful, draining process. In my last months I made the sacrifice to come to the socials and it was definitely worth it! I feel as if I made connections with my co-workers that will last a lifetime.</p>
+                            <hr class="my-6"/>
+                            <p>My final goal for this term was to take increase the amount I was taking part in team discussions. I guess you could say my true goal is to learn more about the actual product that we were working on since most meetings require that knowledge to offer an opinion. But I felt as if I could have offered more opinions and insights when refining new bugs and features. The way I could have done this is simply just by asking questions in these meetings. Simply if something doesn’t make sense or if I am unsure about the direction of the conversation to intervene and ask a question about the topic. Doing this could have shown more intuition and initiative.</p>
+                        </div>
+                        <div class="text-content">
+                            <i><h5>Work Term Goals (September - December)</h5></i>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="calendar-view-container">
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="cal-forms">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="DataBase-Section">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
